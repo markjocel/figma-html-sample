@@ -1,0 +1,261 @@
+$blue: #0061A3;
+
+.extrabold {
+    font-family: 'Muli Extra Bold', sans-serif;
+    font-weight: bold;
+}
+
+.medium {
+    font-weight: 500;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.light {
+    font-family: 'Muli Light', sans-serif;
+    font-weight: lighter;
+}
+
+.extra-light {
+    font-family: 'Muli Extra Light', sans-serif;
+    font-weight: lighter;
+}
+
+.underline {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.text-9 {
+    font-size: 9px;
+}
+
+.text-9p5 {
+    font-size: 9.5px;
+}
+
+.text-10 {
+    font-size: 10px;
+}
+
+.text-11 {
+    font-size: 11px;
+}
+
+.text-12 {
+    font-size: 12px;
+}
+
+.text-14 {
+    font-size: 14px;
+}
+
+.text-16 {
+    font-size: 16px;
+}
+
+.text-17 {
+    font-size: 17px;
+}
+
+.text-20 {
+    font-size: 20px;
+}
+
+.text-22 {
+    font-size: 22px;
+}
+
+.text-26 {
+    font-size: 26px;
+}
+
+.text-30 {
+    font-size: 30px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.white {
+    color: white;
+}
+
+.lh-1p5 {
+    line-height: 1.5;
+}
+
+// Margins
+.m-auto {
+    margin: auto;
+}
+
+.m-0 {
+    margin: 0px;
+}
+
+.mt-0px {
+    margin-top: 0px !important;
+}
+
+.mt-10px {
+    margin-top: 10px !important;
+}
+
+.mt-15px {
+    margin-top: 15px !important;
+}
+
+.mt-20px {
+    margin-top: 20px !important;
+}
+
+.mt-25px {
+    margin-top: 25px !important;
+}
+
+.mt-30px {
+    margin-top: 30px !important;
+}
+
+.mt-40px {
+    margin-top: 40px !important;
+}
+
+.mt-50px {
+    margin-top: 50px !important;
+}
+
+.mt-55px {
+    margin-top: 55px !important;
+}
+
+.mb-5px {
+    margin-bottom: 5px !important;
+}
+
+.mb-10px {
+    margin-bottom: 10px !important;
+}
+
+.mb-15px {
+    margin-bottom: 15px !important;
+}
+
+.mb-20px {
+    margin-bottom: 20px !important;
+}
+
+.mb-25px {
+    margin-bottom: 25px !important;
+}
+
+.mb-30px {
+    margin-bottom: 30px !important;
+}
+
+.mb-40px {
+    margin-bottom: 40px !important;
+}
+
+.mb-50px {
+    margin-bottom: 50px !important;
+}
+
+.mb-80px {
+    margin-bottom: 80px !important;
+}
+
+.mb-87px {
+    margin-bottom: 87px !important;
+}
+
+.mr-10px {
+    margin-right: 10px;
+}
+
+.mr-13px {
+    margin-right: 13px;
+}
+
+.mr-16px {
+    margin-right: 16px !important;
+}
+
+.mr-20px {
+    margin-right: 20px !important;
+}
+
+.p-20px {
+    padding: 20px;
+}
+
+.p-25px {
+    padding: 25px;
+}
+
+.pr-20px {
+    padding-right: 20px;
+}
+
+.pt-0px {
+    padding-top: 0px;
+}
+
+.pt-80px {
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+// Misc
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.bg-white {
+    background-color: white !important;
+
+    &.text-input {
+        color: black !important;
+    }
+}
+
+.bg-green-gradient {
+    background-image: linear-gradient(180deg, #23622C, #398245);
+}
+
+.bg-white+.input-label {
+    color: black;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.nowrap {
+    white-space: nowrap;
+}

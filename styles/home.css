@@ -1,0 +1,862 @@
+.smart-winner-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  padding: 15px 0px;
+}
+
+.smart-winner-header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.smart-winner-header .logo img {
+  height: 60px;
+  margin-right: 30px;
+}
+
+.smart-winner-header .logo p {
+  margin: .5px;
+}
+
+.smart-winner-header .logo .name-balance .logout {
+  color: #0061A3;
+  cursor: pointer;
+}
+
+.smart-winner-header .icons {
+  margin-bottom: 15px;
+}
+
+.smart-winner-header .icons img {
+  margin-right: 10px;
+}
+
+.smart-winner-header .language-selector {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 15px;
+}
+
+.smart-winner-header .language-selector .flag {
+  margin-right: 15px;
+  border-radius: 3px;
+}
+
+.smart-winner-header .language-selector span {
+  margin-right: 11px;
+}
+
+.smart-winners-menu {
+  padding: 0px;
+  margin: 0;
+  margin-bottom: 30px;
+  background-color: #F30000;
+  border-radius: 8px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.smart-winners-menu span {
+  cursor: pointer;
+  padding: 7.5px 25px;
+  display: inline-block;
+  position: relative;
+}
+
+.smart-winners-menu span.active {
+  text-decoration: underline;
+}
+
+.smart-winners-menu span::after {
+  content: '';
+  height: calc(100% - 10px);
+  width: 1px;
+  background-color: white;
+  position: absolute;
+  right: 0;
+  top: 5px;
+}
+
+.smart-winners-menu .account {
+  margin-left: auto;
+  border-radius: 8px;
+  padding: 7.5px 38px;
+  background-color: #0061A3;
+}
+
+.smart-winners-menu .account::after {
+  display: none;
+}
+
+.cards {
+  margin-top: 30px;
+  padding: 0px 15px;
+}
+
+.cards .card {
+  border: 1px solid #E0E0E0;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 6px;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.cards .card * {
+  margin: 0;
+}
+
+.cards .card .texts {
+  margin-left: 6px;
+}
+
+.cards .card .texts .title {
+  font-weight: 500;
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 15px;
+  margin-bottom: 6.5px;
+}
+
+.cards .card .texts .title .link {
+  font-size: 14px;
+  color: #0061A3;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.cards .card .texts .description {
+  color: #5F5F5F;
+}
+
+.lottery-draws {
+  margin-top: 75px;
+  padding: 0px 15px;
+}
+
+.lottery-draws h2 {
+  font-size: 24px;
+}
+
+.lottery-draws .upcoming-draw .prize {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #E0E0E0;
+  border-radius: 8px;
+  border-bottom: 0px;
+  padding: 5px 28px;
+}
+
+.lottery-draws .upcoming-draw .prize .lotto-image {
+  border: 2px solid #E0E0E0;
+  border-radius: 100%;
+  width: 141px;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 29px;
+}
+
+.lottery-draws .upcoming-draw .prize .amount {
+  font-weight: 700;
+  color: #13902A;
+  font-size: 26px;
+}
+
+.lottery-draws .upcoming-draw .prize .amount .country {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.lottery-draws .upcoming-draw .prize .amount .country img {
+  border-radius: 3px;
+  margin-right: 7px;
+  margin-bottom: 14.5px;
+}
+
+.lottery-draws .upcoming-draw .prize .amount .country span {
+  font-weight: 500;
+  color: black;
+  font-size: 14px;
+  margin-bottom: 14.5px;
+}
+
+.lottery-draws .upcoming-draw .action {
+  background-color: #0061A3;
+  color: white;
+  padding: 13px 12px 8px 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 0px 0px 8px 8px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.lottery-draws .upcoming-draw .action button {
+  font-size: 16px;
+  background-color: #F7D300;
+  color: black;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  padding: 10px 50px;
+  font-weight: 500;
+  margin-right: 39.5px;
+}
+
+.lottery-draws .upcoming-draw .action .time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.lottery-draws .upcoming-draw .action .time img {
+  margin-right: 4px;
+}
+
+.upcoming-lottery {
+  margin-top: 75px;
+  padding: 0px 15px;
+}
+
+.upcoming-lottery .title {
+  background-color: #F30000;
+  border-radius: 8px;
+  padding: 10px;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+}
+
+.upcoming-lottery .row {
+  padding: 0px 35px;
+}
+
+.upcoming-lottery .lottery {
+  border: 1px solid #E0E0E0;
+  border-radius: 8px;
+  position: relative;
+  padding: 13px;
+  margin-top: 15px;
+}
+
+.upcoming-lottery .lottery .star {
+  position: absolute;
+  right: 18px;
+  top: 10px;
+}
+
+.upcoming-lottery .lottery .lotto-image {
+  border: 2px solid #E0E0E0;
+  border-radius: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 28px;
+  width: 95px;
+  height: 95px;
+  margin: auto;
+  margin-bottom: 28px;
+}
+
+.upcoming-lottery .lottery .country {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.upcoming-lottery .lottery .country img {
+  border-radius: 3px;
+  margin-right: 7px;
+}
+
+.upcoming-lottery .lottery .country span {
+  font-weight: 500;
+  color: black;
+  font-size: 14px;
+}
+
+.upcoming-lottery .lottery .prize {
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  margin: 8px;
+}
+
+.upcoming-lottery .lottery .time {
+  color: #0061A3;
+  font-weight: 500;
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 12px;
+}
+
+.upcoming-lottery .lottery button {
+  background-color: #F7D300;
+  border-radius: 8px;
+  padding: 10px 55px;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  font-size: 16px;
+  margin: auto;
+  display: block;
+}
+
+.upcoming-lottery .link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 0px 50px;
+}
+
+.upcoming-lottery .link span {
+  color: #0061A3;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.lottery-winners {
+  margin-top: 75px;
+  padding: 0px 15px;
+}
+
+.lottery-winners .title {
+  background-color: #F30000;
+  border-radius: 8px;
+  padding: 10px;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.lottery-winners .biggest-winner {
+  padding: 15px 15px 0px 15px;
+}
+
+.lottery-winners .biggest-winner .amount {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 500;
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.lottery-winners .biggest-winner .amount img {
+  margin-right: 20px;
+}
+
+.lottery-winners .biggest-winner .amount span {
+  margin-right: 10px;
+}
+
+.lottery-winners .biggest-winner .amount span.prize {
+  font-weight: 700;
+  font-size: 36px;
+  color: #0061A3;
+}
+
+.lottery-winners .biggest-winner .article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.lottery-winners .biggest-winner .article .image .results {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.lottery-winners .biggest-winner .article .image .results .numbers {
+  margin-left: 10px;
+  text-align: center;
+}
+
+.lottery-winners .biggest-winner .article .image .results .numbers .number {
+  background-color: #F30000;
+  color: white;
+  padding: 3px;
+  border-radius: 100%;
+}
+
+.lottery-winners .biggest-winner .article .image .results .numbers .date {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .lottery-winners .biggest-winner .article .story {
+    max-width: 250px;
+  }
+}
+
+.lottery-winners .biggest-winner .article .story h4 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.lottery-winners .biggest-winner .article .story p {
+  margin-top: 15px;
+}
+
+.lottery-winners .biggest-winner .article .story .link-out {
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: underline;
+  color: #0061A3;
+  margin-top: 31px;
+}
+
+.lottery-winners .biggest-winner .article .story button {
+  font-size: 16px;
+  background-color: #F7D300;
+  color: black;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  padding: 10px 50px;
+  font-weight: 500;
+  width: 100%;
+  margin-top: 35px;
+}
+
+.lottery-winners .total-paid {
+  text-align: center;
+}
+
+.lottery-winners .total-paid p {
+  font-size: 18px;
+  margin: 5px;
+}
+
+.lottery-winners .total-paid .amount {
+  color: #13902A;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.lottery-winners .total-paid .tickets {
+  font-size: 26px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.lottery-winners .winner {
+  margin-top: 21px;
+  padding: 10px 15px 5px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.lottery-winners .winner .icon {
+  margin-right: 15px;
+}
+
+.lottery-winners .winner .date {
+  margin-top: 5px;
+  display: block;
+}
+
+.lottery-winners .winner .name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 500;
+  margin-top: 2px;
+}
+
+.lottery-winners .winner .name img {
+  margin-right: 5px;
+}
+
+.lottery-winners .winner .draw {
+  margin-top: 2px;
+  color: #5F5F5F;
+}
+
+.lottery-winners .border {
+  border: 1px solid #E0E0E0;
+  border-radius: 8px;
+}
+
+.faq {
+  margin-top: 75px;
+  padding: 0px 15px;
+}
+
+.faq h3 {
+  margin-bottom: 25px;
+}
+
+.faq .question {
+  margin-top: 8px;
+  padding: 10px 20px;
+  color: #0061A3;
+  font-size: 18px;
+  font-weight: 500;
+  max-width: 776px;
+  border-bottom: 1px solid #E0E0E0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  cursor: pointer;
+}
+
+.faq .question img {
+  opacity: .5;
+}
+
+footer {
+  margin-top: 75px;
+  background-image: url(../assets/stars.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 133px 108px;
+}
+
+footer .contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .contacts .whatsapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .contacts .whatsapp p {
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+footer .contacts .whatsapp span {
+  color: #5F5F5F;
+  font-size: 12px;
+}
+
+footer .contacts .whatsapp img {
+  margin-right: 15px;
+}
+
+footer .contacts .icons {
+  padding-right: 75px;
+}
+
+footer .contacts .icons img {
+  margin-right: 10px;
+}
+
+footer .links {
+  margin-top: 40px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .links .useful p {
+  margin: 5px 0px;
+  font-size: 16px;
+}
+
+footer .links .useful p.medium {
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+footer .links .address p {
+  margin: 5px 0px;
+}
+
+footer .links .address p.medium {
+  font-size: 16px;
+  margin: 0px 0px 15px 0px;
+}
+
+footer .links .address p.text-13 {
+  font-size: 13px;
+  line-height: 21px;
+  white-space: nowrap;
+}
+
+footer .links .payment p {
+  margin: 0px 0px 15px;
+  font-size: 16px;
+}
+
+footer .links .payment .d-flex {
+  margin-top: 10px;
+}
+
+footer .links .payment .d-flex img {
+  margin-right: 10px;
+}
+
+footer .links .trust {
+  margin-top: 30px;
+}
+
+footer .links .trust p {
+  margin: 0px 0px 12px;
+}
+
+footer .links .trust .d-flex {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+footer .links .trust .d-flex img {
+  margin-right: 10px;
+}
+
+.row {
+  margin-right: -.5rem !important;
+  margin-left: -.5rem !important;
+}
+
+.row .col {
+  padding: 0px .5rem;
+}
+
+@media (min-width: 1000px) {
+  .row .col-lg-20p {
+    -ms-flex-preferred-size: 20%;
+    flex-basis: 20%;
+    max-width: 20%;
+  }
+}
+
+.d-none {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .smart-winner-header {
+    padding: 16px;
+  }
+  .smart-winner-header .d-none {
+    display: inline-block;
+  }
+  .smart-winner-header .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    width: 100%;
+  }
+  .smart-winner-header .logo .logo-menu {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .smart-winner-header .logo .logo-menu img {
+    margin: 0;
+    cursor: pointer;
+  }
+  .smart-winner-header .logo .name-balance {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+  }
+  .smart-winner-header .icons-language {
+    display: none;
+  }
+  .smart-winners-menu {
+    display: none;
+  }
+  .cards .col-xs-12 {
+    margin-top: 10px;
+  }
+  .lottery-draws h2 {
+    font-size: 18px;
+  }
+  .lottery-draws .col-xs-12 {
+    margin-top: 15px;
+  }
+  .upcoming-lottery .row {
+    padding: 8px;
+  }
+  .upcoming-lottery .lottery button {
+    padding: 10px 0px;
+    width: 100%;
+  }
+  .upcoming-lottery .link {
+    padding: 8px;
+  }
+  .lottery-winners .biggest-winner .amount {
+    font-size: 27px;
+  }
+  .lottery-winners .biggest-winner .amount .prize {
+    font-size: 27px !important;
+  }
+  .lottery-winners .biggest-winner .story {
+    text-align: center;
+  }
+  .lottery-winners .biggest-winner .story .link-out {
+    margin-top: 12px !important;
+  }
+  .lottery-winners .biggest-winner .story button {
+    margin-top: 16px !important;
+    margin-bottom: 15px;
+  }
+  .lottery-winners .latest .title {
+    margin-top: 30px;
+  }
+  footer {
+    position: relative;
+    padding: 80px 16px;
+  }
+  footer .links {
+    margin-top: 0px;
+  }
+  footer .links .trust {
+    margin-top: 0px;
+  }
+  footer .useful {
+    margin-top: 20px;
+  }
+  footer .payment-trust {
+    margin-top: 20px;
+  }
+  footer .icons {
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+    padding-right: 45px !important;
+  }
+}
+/*# sourceMappingURL=home.css.map */
